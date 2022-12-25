@@ -14,6 +14,9 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 dotenv.config();
 
+
+// I know this should be in .env file but just for your convenience i added my personal access link in this way and KEY for JWT is "MERN"
+
 mongoose
   .connect(
     "mongodb+srv://indra16:9826391787@cluster0.8q4fmwf.mongodb.net/?retryWrites=true&w=majority",
