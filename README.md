@@ -1,4 +1,5 @@
 # Expertia.AI-Full-Stack
+Hosted Link -  https://expertia-ai.netlify.app/
 
 Tech Stack used  -  React, Redux, Nodejs, Express, MongoDB, Axios, JWT, bcrypt
 
