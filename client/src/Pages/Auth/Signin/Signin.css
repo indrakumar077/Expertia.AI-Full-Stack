@@ -1,0 +1,173 @@
+.Auth{
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+}
+
+.login{
+   
+    height:550px;
+    width: 650px;
+    background-color:
+    #FFFFFF;
+    border-radius: 10px;
+   padding-top:4rem ;
+   border: 0.5px solid black ;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5%;
+    font-size: 25px;
+    gap: 0.2rem;
+   
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+h4{
+    margin: 0;
+    padding: 0;
+}
+h5{
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    margin-top: 25px;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5%;
+    margin-bottom: 10px;
+    font-size: 20px;
+  
+}
+
+.text{
+    font-weight: 700;
+    color: rgb(78, 38, 38);
+}
+
+/* .inp{
+    
+    width: 90%;
+    margin-left: 4.5%;
+    margin-bottom: 25px;
+    height: 3.5rem;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+.inp>input{
+    margin-left:9px;
+    width: 80%;
+    height: 90%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+} */
+
+.inp{
+    
+    width: 90%;
+    margin-left: 4.5%;
+    margin-bottom: 15px;
+    height: 3.5rem;
+    display: flex;
+    
+  
+    background: transparent;
+    cursor: pointer;
+ 
+}
+.inp>input{
+   
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+   background: transparent;
+   border-radius: 0.5rem;
+   border: 1px solid black;
+   padding-left: 10px;
+   
+}
+
+.checkbox{
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.btn{
+    height: 50px;
+    margin: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.btn>button{
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.goto{
+    
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 0.5rem;
+ cursor: pointer;
+}
+
+.logo{
+        height:100%;
+        width: 100%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+    
+
+  
+@media only screen and (max-width: 480px) {
+    .logo {
+      display: none;
+      width: 0px;
+      height: 0px;
+    }
+    .logo>p{
+        display: none;
+        width: 0px;
+      height: 0px;
+    }
+    .login{
+         position: absolute;
+        height:100vh;
+        width: 100%;
+        background-color: #ffffff;
+        border-radius: 10px;
+       padding-top:4rem ;
+    }
+   
+  }
