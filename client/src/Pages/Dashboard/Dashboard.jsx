@@ -33,6 +33,11 @@ const Dashboard = () => {
       setTask("")
       return;
     }
+    if(user.Tasks.includes(task)){
+       alert("this task is already added");
+       setTask("");
+       return;
+    }
    if (task.length > 0) {
       dispatch(AddTask(user._id, task));
       setTask("");
