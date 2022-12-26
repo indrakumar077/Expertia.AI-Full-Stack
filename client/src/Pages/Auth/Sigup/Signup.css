@@ -161,3 +161,28 @@ h5{
     }
    
   }
+
+
+  @media only screen and (max-width: 1028px) {
+    .logo {
+        display: none;
+        width: 0px;
+        height: 0px;
+      }
+      .logo>p{
+          display: none;
+          width: 0px;
+        height: 0px;
+      }
+      .Singup{
+           position: absolute;
+          height:100vh;
+          width: 100%;
+          background-color:
+          #FFFFFF;
+          border-radius: 10px;
+         padding-top:2rem ;
+         padding-bottom:1rem ;
+      }
+   
+  }
