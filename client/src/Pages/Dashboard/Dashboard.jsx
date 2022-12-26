@@ -33,8 +33,10 @@ const Dashboard = () => {
       setTask("")
       return;
     }
-    dispatch(AddTask(user._id, task));
-    setTask("")
+   if (task.length > 0) {
+      dispatch(AddTask(user._id, task));
+      setTask("");
+    }
   }
 
   const LogoutUser = ()=>{
